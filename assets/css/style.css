@@ -60,6 +60,14 @@ h2 {
   border-radius: 10px;
 }
 
+.contact-form {
+  float: left;
+}
+
+.social-links {
+  float: right;
+}
+
 .footer {
   background-color: #3c81c1;
   color: #fffaea;
