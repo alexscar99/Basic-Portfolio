@@ -1,8 +1,25 @@
+html {
+  height: 100%;
+}
+
 body {
-  font-family: 'Open Sans', sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
   color: #3570a8;
-  background-color: #fffaea;
+  background: #fffaea;
+}
+
+header,
+footer {
+  background: #3c81c1;
+  box-shadow: 5px 10px 8px #0f3354;
+  color: #fffaea;
+  box-sizing: border-box;
+  width: 100%;
+  flex: 0 0 auto;
 }
 
 h2 {
@@ -11,12 +28,13 @@ h2 {
 }
 
 .header {
-  background-color: #3c81c1;
+  background: #3c81c1;
   box-shadow: 5px 10px 8px #0f3354;
   color: #fffaea;
   padding: 20px 40px;
   height: 75px;
   box-sizing: border-box;
+  flex: 0 0 auto;
 }
 
 .header h1 {
@@ -43,13 +61,36 @@ h2 {
   opacity: 0.9;
 }
 
-.about-me {
-  width: 59%;
-  margin: 50px auto;
+.container {
+  flex: 1 0 auto;
+}
+
+.about-me,
+.contact-form,
+.social-links {
   border: 2px solid #3c81c1;
   border-radius: 30px;
   box-shadow: 5px 10px 8px #0f3354;
   padding: 50px;
+}
+
+.about-me {
+  margin: 50px auto;
+  width: 59%;
+}
+
+.contact-form {
+  margin: 50px 50px 50px 150px;
+  width: 30%;
+  height: 500px;
+  float: left;
+}
+
+.social-links {
+  margin: 50px 150px 50px 50px;
+  width: 20%;
+  height: 250px;
+  float: right;
 }
 
 .about-me img {
@@ -60,16 +101,10 @@ h2 {
   border-radius: 10px;
 }
 
-.contact-form {
-  float: left;
-}
-
-.social-links {
-  float: right;
-}
-
 .footer {
-  background-color: #3c81c1;
+  flex: 0 0 auto;
+  width: 100%;
+  background: #3c81c1;
   color: #fffaea;
   padding: 5px 40px;
   height: 60px;
