@@ -137,10 +137,19 @@ textarea {
 }
 
 .social-links {
-  margin: 50px 150px 50px 50px;
-  width: 20%;
+  margin: 50px 150px 50px 100px;
+  width: 17%;
   height: 250px;
   float: right;
+}
+
+.social-links h2 {
+  margin: 15px 0;
+}
+
+.social-links img {
+  height: 75px;
+  margin: 0 20px 5px 20px;
 }
 
 #footer {
