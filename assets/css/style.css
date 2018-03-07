@@ -1,6 +1,6 @@
 html {
   height: 100%;
-  background: #fffaea;
+  background: white;
 }
 
 body {
@@ -9,21 +9,21 @@ body {
   flex-direction: column;
   height: 100%;
   font-family: 'Open Sans', sans-serif;
-  color: #3570a8;
+  color: black;
 }
 
 header,
 footer {
-  background: #3c81c1;
-  box-shadow: 5px 10px 8px #0f3354;
-  color: #fffaea;
+  background: black;
+  box-shadow: inset 0px 0px 90px 10px #930d0f;
+  color: white;
   box-sizing: border-box;
 }
 
 h2 {
   margin: 20px 0;
   font-size: 30px;
-  color: #3570a8;
+  color: black;
 }
 
 #header {
@@ -41,7 +41,7 @@ h2 {
 
 #header h1 a {
   text-decoration: none;
-  color: #fffaea;
+  color: white;
 }
 
 #header nav {
@@ -54,9 +54,9 @@ h2 {
   display: inline-block;
   padding: 0 5px;
   text-decoration: none;
-  color: #fffaea;
+  color: white;
   font-size: 16px;
-  opacity: 0.9;
+  font-weight: bold;
 }
 
 #header nav a:hover {
@@ -67,9 +67,9 @@ h2 {
 .about-me,
 .contact-form,
 .social-links {
-  border: 2px solid #3c81c1;
+  border: 2px solid black;
   border-radius: 30px;
-  box-shadow: 5px 10px 8px #0f3354;
+  box-shadow: 3px 3px 15px 8px #930d0f;
 }
 
 .contact-form,
@@ -123,8 +123,8 @@ textarea {
 }
 
 .contact-form input[type='submit'] {
-  background: #3c81c1;
-  color: #fffaea;
+  background: black;
+  color: white;
   width: 100px;
   border-radius: 10px;
   border: none;
@@ -147,5 +147,5 @@ textarea {
   padding: 5px 40px;
   height: 60px;
   text-align: center;
-  box-shadow: inset 0 0 50px #0f3354;
+  box-shadow: inset 0px 0px 90px 10px #930d0f;
 }
