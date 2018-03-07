@@ -64,7 +64,7 @@ p {
 }
 
 #header nav a:hover {
-  font-style: italic;
+  text-decoration: underline;
 }
 
 .about-me,
@@ -90,7 +90,7 @@ p {
 }
 
 .contact-form {
-  margin: 50px 50px 50px 150px;
+  margin: 50px 50px 50px 200px;
   padding: 20px 50px;
   width: 30%;
   height: 600px;
@@ -146,12 +146,13 @@ textarea {
 }
 
 .social-links h2 {
+  font-size: 25px;
   margin: 15px 0;
 }
 
 .social-links img {
-  height: 75px;
-  margin: 0 20px 5px 20px;
+  height: 55px;
+  margin: 10px 20px;
 }
 
 #footer {
