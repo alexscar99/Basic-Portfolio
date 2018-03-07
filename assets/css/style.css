@@ -26,12 +26,12 @@ h2 {
   color: #3570a8;
 }
 
-.header {
+#header {
   padding: 20px 40px;
   height: 85px;
 }
 
-.header h1 {
+#header h1 {
   float: left;
   font-size: 35px;
   line-height: 40px;
@@ -39,13 +39,13 @@ h2 {
   letter-spacing: 1.5px;
 }
 
-.header nav {
+#header nav {
   font-size: 16px;
   line-height: 40px;
   float: right;
 }
 
-.header nav a {
+#header nav a {
   display: inline-block;
   padding: 0 5px;
   text-decoration: none;
@@ -54,13 +54,9 @@ h2 {
   opacity: 0.9;
 }
 
-.header nav a:hover {
+#header nav a:hover {
   font-weight: bold;
   font-style: italic;
-}
-
-.container {
-  flex: 1 0 auto;
 }
 
 .about-me,
@@ -142,7 +138,7 @@ textarea {
   float: right;
 }
 
-.footer {
+#footer {
   padding: 5px 40px;
   height: 60px;
   text-align: center;
