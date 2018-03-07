@@ -39,6 +39,11 @@ h2 {
   letter-spacing: 1.5px;
 }
 
+#header h1 a {
+  text-decoration: none;
+  color: #fffaea;
+}
+
 #header nav {
   font-size: 16px;
   line-height: 40px;
