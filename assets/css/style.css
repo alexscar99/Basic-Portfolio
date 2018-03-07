@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  background: #fffaea;
 }
 
 body {
@@ -9,7 +10,6 @@ body {
   height: 100%;
   font-family: 'Open Sans', sans-serif;
   color: #3570a8;
-  background: #fffaea;
 }
 
 header,
@@ -18,8 +18,6 @@ footer {
   box-shadow: 5px 10px 8px #0f3354;
   color: #fffaea;
   box-sizing: border-box;
-  width: 100%;
-  flex: 0 0 auto;
 }
 
 h2 {
@@ -28,13 +26,8 @@ h2 {
 }
 
 .header {
-  background: #3c81c1;
-  box-shadow: 5px 10px 8px #0f3354;
-  color: #fffaea;
   padding: 20px 40px;
-  height: 75px;
-  box-sizing: border-box;
-  flex: 0 0 auto;
+  height: 85px;
 }
 
 .header h1 {
@@ -42,7 +35,6 @@ h2 {
   font-size: 30px;
   line-height: 40px;
   margin: 0;
-  color: #fffaea;
   letter-spacing: 1.5px;
 }
 
@@ -61,6 +53,11 @@ h2 {
   opacity: 0.9;
 }
 
+.header nav a:hover {
+  font-weight: bold;
+  font-style: italic;
+}
+
 .container {
   flex: 1 0 auto;
 }
@@ -71,19 +68,62 @@ h2 {
   border: 2px solid #3c81c1;
   border-radius: 30px;
   box-shadow: 5px 10px 8px #0f3354;
-  padding: 50px;
+}
+
+.contact-form,
+.social-links {
+  padding: 20px 50px;
 }
 
 .about-me {
   margin: 50px auto;
+  padding: 50px;
   width: 59%;
 }
 
 .contact-form {
   margin: 50px 50px 50px 150px;
+  padding: 20px 50px;
   width: 30%;
-  height: 500px;
+  height: 600px;
   float: left;
+}
+
+.contact-form label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact-form input,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.contact-form input {
+  height: 50px;
+}
+
+.contact-form input[type='submit'] {
+  margin: 20px 0;
+  background: #3c81c1;
+  color: #fffaea;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-form textarea {
+  height: 150px;
 }
 
 .social-links {
@@ -102,13 +142,8 @@ h2 {
 }
 
 .footer {
-  flex: 0 0 auto;
-  width: 100%;
-  background: #3c81c1;
-  color: #fffaea;
   padding: 5px 40px;
   height: 60px;
-  box-sizing: border-box;
   text-align: center;
-  box-shadow: inset 0 0 10px #0f3354;
+  box-shadow: inset 0 0 50px #0f3354;
 }
